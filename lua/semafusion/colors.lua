@@ -10,6 +10,7 @@ M.get = function(variant, style)
         tan = '#e3d5ca',
         dust = '#d5bdaf',
         canvas = '#f8f5d7',
+        canvas_light = '#f1f0e4',
         graphite = '#353535',
         green = '#1dcd76',
         mint = '#02c39a',
@@ -25,7 +26,8 @@ M.get = function(variant, style)
 
     if variant == 'light' then
         return {
-            bg = palette.canvas,
+            -- bg = palette.canvas,
+            bg = palette.canvas_light,
             fg = palette.graphite,
             comment = palette.dust,
             line = palette.tan,
