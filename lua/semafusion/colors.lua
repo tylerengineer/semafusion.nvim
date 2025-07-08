@@ -39,7 +39,8 @@ M.get = function(variant, style)
         }
     else
         return {
-            bg = '#403e3b',
+            -- bg = '#403e3b',
+            bg = '#59554f',
             fg = '#f4f3f0',
             comment = palette.dust,
             line = '#7c746e',
